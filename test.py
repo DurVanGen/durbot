@@ -86,9 +86,10 @@ async def on_message(message):
         randomlist15 = ["Your link to Familyowner accounts: https://direct-link.net/27527/familyowner"]
         await client.send_message(message.author,(random.choice(randomlist15)))
         await client.send_message(message.channel,"Check your DM's")
-    if message.content == "!spotifygen":
-    	await client.send_message(message.channel,"Check your DM's")
-        await client.send_message(message.author,"Your link to download Spotify Generator is ready: https://direct-link.net/27527/SpotifyGenerator001")
+    if message.content == '!familyowner':
+        randomlist16 = ["Your link to download Spotify Generator is ready: https://direct-link.net/27527/SpotifyGenerator001"]
+        await client.send_message(message.author,(random.choice(randomlist16)))
+        await client.send_message(message.channel,"Check your DM's")
 
 
 
